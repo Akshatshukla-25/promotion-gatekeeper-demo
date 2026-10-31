@@ -23,7 +23,7 @@ jobs:
       - uses: Akshatshukla-25/promotion-gatekeeper@v1
         with:
           environments: dev,uat,prod
-          block-on-blocked: "false"
+          block-on-blocked: "true"
       - uses: actions/upload-artifact@v7
         if: always()
         with:
