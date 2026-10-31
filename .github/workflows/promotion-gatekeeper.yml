@@ -22,7 +22,7 @@ jobs:
           fetch-depth: 0
       - uses: Akshatshukla-25/promotion-gatekeeper@v1
         with:
-          environments: dev,uat,prod
+          environments: nonexistent,uat
           block-on-blocked: "false"
       - uses: actions/upload-artifact@v7
         if: always()
