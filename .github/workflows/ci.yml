@@ -6,7 +6,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Build succeeded"
+      - run: sleep 25 && echo "Build succeeded"
   test:
     runs-on: ubuntu-latest
     steps:
